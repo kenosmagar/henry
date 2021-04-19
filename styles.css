@@ -1,0 +1,65 @@
+html{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+body{
+     background-image: url(https://montecatiniristo.com.ar/wp-content/uploads/2020/01/77243539_2701308056603852_3173043210003775649_n.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+/*h1 color*/
+h1 { 
+     color:rgb(82, 190, 240);
+}
+
+/*Imagenes ancho*/
+img {
+    width: 400px;
+    max-height: 100%;
+
+}
+
+.divClass{
+     text-align: center;
+     color: floralwhite;
+}
+
+#thirdDiv {
+     display: flex;
+     justify-content: center;
+     height: 600px;
+     width: 500px;
+     background-color: rgb(35, 55, 71);
+     padding: 50px;
+     border: rgb(255, 255, 255) 5px solid;
+}
+
+#spanId {
+     font-size: 18px;
+     margin: 50px;
+}
+
+ul{
+     margin: 0;
+     padding: 0;
+}
+
+li {
+    list-style: none;
+    height: 50%;
+    padding: 2px;
+}
+
+a {
+     text-decoration: none;
+     color: floralwhite;
+}
+
+span{
+     color: rgb(59, 163, 163);
+     
+}
